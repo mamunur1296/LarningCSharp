@@ -1,10 +1,10 @@
-﻿using LarningCSharp.Class_003;
+﻿using LarningCSharp.Class_004;
 
 class Program
 {
     static void Main()
     {
-        Looping obj = new Looping();
+        var obj = new @string();
  
         obj.Main();
         Console.WriteLine(" Project ... ");
