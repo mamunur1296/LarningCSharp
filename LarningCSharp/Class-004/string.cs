@@ -1,4 +1,6 @@
-﻿namespace LarningCSharp.Class_004
+﻿using System.Diagnostics.Metrics;
+
+namespace LarningCSharp.Class_004
 {
     public class @string
     {
@@ -46,15 +48,45 @@
 
 
 
+            
+
+            char[] letterss = { 'a', 'b', 'c', 'd', 'e' };
+
+            //for (int i = 0; i < letterss.Length; i++)
+            //{
+            //    Console.WriteLine("letter :- " + letterss[i] + i);
+            //}
+
+            //foreach (char letter in letterss) 
+            //{
+            //    Console.WriteLine(letter);
+            //}
+
             string s3 = "visuek C sharp Express";
+            string s33 = "visuek  sharp Express";
+            //Console.WriteLine(s3.ToLower());
+            //Console.WriteLine(s3.ToUpper());
+            //Console.WriteLine(s3.Substring(3,5));
+            //Console.WriteLine(Substr(s3,3,5));
+            var s4 = s3.Clone(); // this Clone() methods to mack Copy parants data 
+            Console.WriteLine(s3.CompareTo(s3));
+            Console.WriteLine(s3.);
 
+            // Clone 
 
+            //string s3 = "visuek C sharp Express";
+            //var s4 = s3.Clone();
+            // this Clone() methods to mack Copy parants data 
 
-
-            Console.WriteLine(s3.Substring(7));
-            Console.WriteLine(s3.Substring(7,5));
-
-
+        }
+        private string Substr(string input ,int start,int end)
+        {
+            var sentance = "";
+            for (int i = start; i <= end; i++)
+            {
+                sentance += input[i];
+            }
+            return sentance;
         }
     }
 }
