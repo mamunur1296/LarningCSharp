@@ -70,7 +70,7 @@ namespace LarningCSharp.Class_004
             //Console.WriteLine(Substr(s3,3,5));
             var s4 = s3.Clone(); // this Clone() methods to mack Copy parants data 
             Console.WriteLine(s3.CompareTo(s3));
-            Console.WriteLine(s3.);
+            Console.WriteLine(s3.ToLower());
 
             // Clone 
 

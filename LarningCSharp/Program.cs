@@ -1,10 +1,11 @@
-﻿using LarningCSharp.Class_004;
+﻿using LarningCSharp.Class_006;
+using LarningCSharp.Class_007;
 
 class Program
 {
     static void Main()
     {
-        var obj = new @string();
+        var obj = new Test();
  
         obj.Main();
         Console.WriteLine(" Project ... ");
