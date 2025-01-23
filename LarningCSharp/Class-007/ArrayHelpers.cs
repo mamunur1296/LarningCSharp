@@ -82,8 +82,6 @@ namespace LarningCSharp.Class_007
 
         public void Main()
         {
-
-
             //int number = 0;
             //string name = "Tahim";
             //char c = 'a';
