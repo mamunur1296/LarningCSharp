@@ -1,50 +1,63 @@
-﻿using LarningCSharp.Class_13;
-using System.Collections;
+﻿using LarningCSharp.Class_14;
+
+
+
+public class Student
+{
+    // member 1
+    //public Student(int a ,int b) // Constructor
+    //{
+    //    Console.WriteLine(a+b);
+    //}
+    // member 2
+    public int Id { get; set; } // Feeld
+    protected string Name { get; set; }
+    protected int Role { get; set; }
+    // member 3
+    public void DesplaySumething() // Method or Functions
+    {
+
+        Console.WriteLine($"Student Name  : {Name} ");
+    }
+}
+
+
+public class Tahim : Student
+{
+    
+    
+
+}
+
+class Parent
+{
+    protected string message = "Hello from Parent class!"; // Protected field
+
+    protected void ShowMessage()
+    {
+        Console.WriteLine(message);
+    }
+}
+
+class Child : Parent
+{
+    public void Display()
+    {
+        Console.WriteLine("Accessing protected member from derived class:");
+        ShowMessage(); // Accessing protected method from parent class
+    }
+}
+
 
 class Program
 {
-
-
-
-    public class Demo3 : Demo
-    {
-        private int Private;
-    }
+    
     static void Main()
     {
-        //Lifo = Last in First Out
-        //Stack<string> st = new Stack<string>();
-
-        // Push() item add 
-        //st.Push("First");
-        //st.Push("Second");
-        //st.Push("Third");
-        //Console.WriteLine(st.Count);
-        // Pop() item Out 
-
-        //st.Pop();
-
-
-        // Peek()
-        //string topItem = st.Peek();
-        //Console.WriteLine(topItem);
-
-        // Clear()
-        //st.Clear();
-
-        // Count()
-
-        //while (st.Count > 0)
-        //{
-        //    Console.WriteLine(st.Pop());
-        //}
-
-        var obj = new Demo();
-        obj.Public=10;
-        obj.Internal=" Tahim";
-        obj.Protected_internal=10;
-        Demo3 demo3 = new Demo3();
-        demo3.
-
+        Student student = new Student(); // Object or Instance
+      
+        Tahim tahim = new Tahim();
+       
+        tahim.DesplaySumething ();
     }
 }

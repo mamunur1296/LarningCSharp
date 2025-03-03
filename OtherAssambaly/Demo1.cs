@@ -1,4 +1,4 @@
-﻿using LarningCSharp.Class_13;
+﻿
 
 namespace OtherAssambaly
 {

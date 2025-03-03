@@ -8,35 +8,35 @@ namespace LarningCSharp.Class_012
 {
     internal class StackClass
     {
-        static void Main()
-        {
-            //Lifo = Last in First Out
-            Stack<string> st = new Stack<string>();
+        //static void Main()
+        //{
+        //    //Lifo = Last in First Out
+        //    Stack<string> st = new Stack<string>();
 
-            // Push() item add 
-            st.Push("First");
-            st.Push("Second");
-            st.Push("Third");
-            Console.WriteLine(st.Count);
-            // Pop() item Out 
+        //    // Push() item add 
+        //    st.Push("First");
+        //    st.Push("Second");
+        //    st.Push("Third");
+        //    Console.WriteLine(st.Count);
+        //    // Pop() item Out 
 
-            //st.Pop();
+        //    //st.Pop();
 
 
-            // Peek()
-            string topItem = st.Peek();
-            Console.WriteLine(topItem);
+        //    // Peek()
+        //    string topItem = st.Peek();
+        //    Console.WriteLine(topItem);
 
-            // Clear()
-            st.Clear();
+        //    // Clear()
+        //    st.Clear();
 
-            // Count()
+        //    // Count()
 
-            //while (st.Count > 0)
-            //{
-            //    Console.WriteLine(st.Pop());
-            //}
+        //    //while (st.Count > 0)
+        //    //{
+        //    //    Console.WriteLine(st.Pop());
+        //    //}
 
-        }
+        //}
     }
 }
